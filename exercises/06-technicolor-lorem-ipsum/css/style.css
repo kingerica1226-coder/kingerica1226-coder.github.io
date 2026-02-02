@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20x;
+    font-family: sans-serif;
+}
+#p1 {
+    background-color: rgb(134, 91, 34);
+    color: coral;
+}
+#green {
+    font-size: 50px;
+    color: rgba(128, 255, 0, 0.781);
+    background-color: rgba(33, 58, 7, 0.76);
+}
+#blue {
+    background-color: rgba(0, 0, 255, 0.589);
+    color: rgb(28, 138, 202);
+}
+#red {
+    background-color: rgb(110, 3, 25);
+    color: rgb(252, 124, 124);
+}
+#p2 {
+    background-color: coral;
+    color: aliceblue;
+}
+#pink {
+    background-color: deeppink;
+    color: rgb(77, 37, 37);
+}
+#magenta {
+    background-color: darkmagenta;
+    color: rgb(194, 173, 214);
+}
+#blood {
+    background-color: darkred;
+    color: rgb(233, 8, 38);
+}
+#p3 {
+    background-color: rgb(95, 158, 160);
+    color: bisque;
+}
+#orange {
+    background-color: rgb(197, 57, 6);
+    color: rgb(226, 181, 164);
+}
+#purple {
+    background-color: darkviolet;
+    color: darkgrey;
+}
+#yellow {
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    font-family: sans-serif;
+    width: 800px;
+    background-color: rgba(150, 152, 172, 0.411);
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(134, 90, 9);
+    color: rgb(238, 238, 238);
+    padding: 20px;
+}
+#p-2 {
+    color: rgb(7, 88, 88);
+    background-color: rgba(31, 14, 14, 0.521);
+    padding: 20px
+}
+
+#p-1 {
+    color: rgb(62, 6, 114);
+}
+#black-mark {
+    color: black;
+}
+#big {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
