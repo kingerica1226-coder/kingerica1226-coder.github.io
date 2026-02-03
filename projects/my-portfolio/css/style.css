@@ -20,7 +20,7 @@ body {
     color: white;
     padding: 24px;
 }
-#active {
+#navbar a.active {
     text-decoration: underline;
     color: black;
 }
