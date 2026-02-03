@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-family: cursive;
+    color: darkolivegreen;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#font-weight {
+    font-weight: 800;
+    font-kerning: normal;
+    text-decoration: underline;
+}
+#font-style {
+    font-style: oblique;
+    font-family: fantasy;
+}
+div {
+    text-align: center;
+    background-color: rgb(122, 211, 214);
+    margin: 60px;
+    padding: 40px;
+    border: solid;
+}
+img {
+    border: solid 2px;
+    margin: 10px;
+    border-radius: 20px 20px 5px 5px;
+    border-color: aquamarine;

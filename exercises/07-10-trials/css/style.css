@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+    line-height: 1.2em;
+}
+div {
+    width: 570px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(12, 53, 129);
+}
+/* trial 1 */
+#p1 {
+    color: darkgreen;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+/* trial 2 */
+#p2 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#pink {
+    color: #F711F7;
+}
+/* trial 3 */
+#p3 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#red {
+    color: red;
+}
+#goldenrod {
+    color: goldenrod;
+}
+#blue {
+    color: blue;
+}
+/* trial 4 */
+#p4 {
+    background-color: skyblue;
+}
+#block4 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+/* trial 5 */
+#p5 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#yellow {
+    background-color: yellow;
+}
+/* trial 6 */
+#p6 {
+     border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#bold {
+    font-weight: 900;
+}
+/* trial 7 */
+#p7 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#italic {
+    font-style: oblique;
+}
+
+/* trial 8 */
+#p8 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#underline {
+    text-decoration: underline;
+}
+/* trial 9 */
+#p9 {
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+#fake-heading {
+    font-size: 36px;
+}
+/* trial 10 */
+#p10 {
+     border: solid;
+    border-color: rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    text-align: center;
+}
+#eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing:1px
+}
+#header {
+    font-size: 48px;
+    line-height:0;
+    letter-spacing: 1px;
+}
+#subhead {
+    font-size: 24px;
+    line-height: 0;
+    font-style: italic;
+    letter-spacing: 1px;
+}
