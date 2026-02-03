@@ -66,7 +66,7 @@ h2 {
 }
 /* trial 6 */
 #p6 {
-     border: solid;
+    border: solid;
     border-color: rgba(0, 0, 0, 0.164);
     padding: 20px;
 }
@@ -103,7 +103,7 @@ h2 {
 }
 /* trial 10 */
 #p10 {
-     border: solid;
+    border: solid;
     border-color: rgba(0, 0, 0, 0.164);
     padding: 20px;
     text-align: center;
@@ -112,11 +112,11 @@ h2 {
     font-size: 12px;
     font-weight: 700;
     line-height: 0;
-    letter-spacing:1px
+    letter-spacing: 1px;
 }
 #header {
     font-size: 48px;
-    line-height:0;
+    line-height: 0;
     letter-spacing: 1px;
 }
 #subhead {
