@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/*
+    Navbar setup and configuration
+*/
+#navbar {
+    background: linear-gradient(to bottom, rgb(3, 54, 121), #3e436d);
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#active {
+    text-decoration: underline;
+    color: black;
+}
