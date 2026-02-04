@@ -5,7 +5,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(192, 185, 176);
+    background: linear-gradient(rgb(184, 226, 195),rgb(5, 40, 114),
+     rgb(252, 145, 106));
 }
 .palette-title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
