@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1080px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+   
+}
+.gradient {
+     background: linear-gradient(
+         to left,
+        rgba(255, 0, 0, 0.527),
+        rgb(255, 0, 157) 
+         );  
+    padding: 20px; 
+    border: solid 5px; 
+    border-color: coral;
+    border-radius: 20px;
+    box-shadow: inset 5px 10px 20px rgba(224, 63, 198, 0.507),
+    -5px 10px 15px rgb(255, 0, 221);
+}   
+p{
+    padding: 20px;
+    margin: 10px 0px;
+    width: 1200 px;
+    color: aliceblue;
+   
+}
+#p-1 {
+    color: bisque;
+    font-size: medium;
+    text-align: right;
+}
+#p-2 {
+    color: burlywood;
+    font-size: larger;
+    text-align: center;
+}
+#p-3 {
+    font-size: x-large;
+
+}
+hr {
+    border-color: black;
+    width: 500px;
+    border-width: 4px;
+}
