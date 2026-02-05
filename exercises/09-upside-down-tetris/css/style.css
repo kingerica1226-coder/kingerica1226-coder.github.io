@@ -36,7 +36,7 @@ h1 {
 }
 .yellow {
     background-color: darkgoldenrod;
-    border: 10px outset rgba(211, 157, 21, 0.658)
+    border: 10px outset rgba(211, 157, 21, 0.658);
 }
 .blue {
     background-color: blue;
