@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(17, 201, 124);
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 5px;
+    text-decoration: underline;
+}
+#container {
+    width: 600px;
+    min-height: 90vh;
+    background-color: rgba(17, 14, 39, 0.747);
+    border-left: solid 20px;
+    border-right: solid 20px;
+    border-top: solid 30px;
+    font-size: 0px;
+    margin: 0px auto;
+    padding-left: 30px;
+    box-shadow: 1px 1px 10px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block; 
+}
+.red {
+    background-color: crimson;
+    border: 10px outset rgb(219, 34, 71);
+}
+.yellow {
+    background-color: darkgoldenrod;
+    border: 10px outset rgba(211, 157, 21, 0.658)
+}
+.blue {
+    background-color: blue;
+    border: 10px outset rgba(20, 20, 199, 0.925);
+}
+.green {
+    background-color: darkgreen;
+    border: 10px outset rgb(11, 112, 11);
+}
