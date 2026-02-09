@@ -20,22 +20,22 @@ body {
     border: solid 2px rgb(129, 112, 13);
 }
 #face {
-    width: 100%;
+    width: 300px;
     border-radius: 50%;
     margin: 0px;
     padding: 0px;
     border: solid 3px rgb(117, 102, 12);
 }
 #slogan {
-        width: 100%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: bold;
-        font-size: x-large;
-        text-align: center;
-        line-height: 1.5;
-        background-color: rgb(223, 222, 224);
-        padding: 10px;
-        border: solid 2px rgb(129, 112, 13);
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(223, 222, 224);
+    padding: 10px;
+    border: solid 2px rgb(129, 112, 13);
 }
 .frame4 { 
     width: 100%;
@@ -49,20 +49,17 @@ body {
     width: 400px;
     border: ridge 15px black;
     padding: 0px;
-    margin:50px;
+    margin: 50px;
     box-shadow: 2px 2px 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 #frame3 { 
-    width: 100%;
     border-radius: 50%;
-    border: solid 2px green;
+    border: solid 10px rgb(10, 10, 10);
     margin: 0px;
     padding: 0px;
-}
-#frame2 {
-    width: 300px;
-    border: solid 10px rgb(109, 33, 103);
-    border-radius: 50%;
-    margin: 25px;
-    padding: 0px;
+    display: inline-block;
+    font-size: 0px;
+    box-shadow: 2px 2px 2px;
 }
