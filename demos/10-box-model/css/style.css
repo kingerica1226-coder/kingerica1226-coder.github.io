@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(128, 185, 166, 0.925);
+}
+div {
+    margin: 24px 0px;
+    border: 10px groove rgb(6, 22, 75);
+    padding: 20px 39px;
+    box-shadow: 1px 1px 3px green;
+    background-color: rgb(46, 49, 58);
+    color: azure;
+}
+p {
+    border: 10px dotted red;
+    margin: 30px;
+    padding: 30px 40px;
+    background-color: aliceblue;
+    color: black;
+}
+b {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
