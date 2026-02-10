@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+    display: inline-block;
+
+}
+#sidebar h4 {
+    border-bottom: solid;
+    padding: 10px 0px;
+}
+#sidebar .chapter {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+}
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+}
+#sidebar .chapter.edit {
+    color: red;
+}
+#sidebar li {
+    padding: 5px;
+
+}
+#sidebar + div {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+div {
+    padding: 30px;
+}
+div h2 {
+    margin-top: 60px;
+    border-bottom: solid #333333;
+}
+div p {
+    line-height: 1.5;
+}
