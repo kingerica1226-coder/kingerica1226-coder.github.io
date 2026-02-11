@@ -4,7 +4,8 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: default;
 }
 div {
     border: solid 1px grey;
@@ -79,4 +80,5 @@ h2 {
     margin: 10px 20px;
     color: rgb(230, 226, 220);
     border-bottom: dashed 2px;
+    font-family: monospace;
 }
