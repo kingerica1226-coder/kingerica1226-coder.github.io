@@ -56,7 +56,11 @@ div {
     font: bolder;
     color: aliceblue;
     background: linear-gradient( rgb(102, 134, 145),rgb(38, 38, 71));
+    transition: background, 1s;
     cursor: pointer;
+}
+.button:hover {
+    background: linear-gradient( rgb(102, 134, 145));
 }
 ul {
     margin: 20px;
