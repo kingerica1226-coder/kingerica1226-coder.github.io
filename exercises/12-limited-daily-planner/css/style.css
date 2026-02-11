@@ -11,7 +11,9 @@ div {
     border-radius: 20px;
     margin: 20px 20px;
     box-shadow: 2px 2px 10px rgb(186, 201, 206);
-    width: 600px;
+    width: 500px;
+    vertical-align: middle;
+  
 }
 #morning {
     background-color: coral;
