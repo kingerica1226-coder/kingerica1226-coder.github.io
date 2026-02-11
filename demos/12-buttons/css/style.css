@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#section2 .button.background {
+    width: 300px;
+    display: block;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 100px;
+    text-align: center;
+    margin: 5px;
+}
+.simple {
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: rgb(250, 121, 0);
+    padding: 10px;
+}
+.background {
+    background-color: rgb(0, 183, 255);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.border {
+    border: 5px solid rgb(0, 183, 255);
+    color: rgb(0, 183, 255);
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.style {
+    background: linear-gradient( rgb(224, 224, 203), grey);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.side-by-side {
+    margin: 40px 40px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 14px;
+    width: 800px;
+}
+.column1 img {
+    width: 100%;
+}
+.column1 {
+    display: inline-block;
+    width: 400px;
+    vertical-align: middle;
+}
+
+.column2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    padding-left: 40px;
+}
+.wide {
+    display: block;
+}
