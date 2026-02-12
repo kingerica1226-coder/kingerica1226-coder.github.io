@@ -5,13 +5,14 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    font-size: 16px;
 }
 .single-column {
     width: 50%;
     margin: 0px auto;
     min-width: 800px;
     max-width: 1080px;
-    background-color: rgb(174, 194, 230);
+    background-color: rgb(253, 253, 253);
 }
 .title {
     margin: 0px;
@@ -25,17 +26,20 @@ div {
 }
 div #body .subheaders2 {
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 25px;
     margin: 20px;
 }
 div #body h3 {
-    font-size: 48px;
+    font-size: 36px;
     display: block;
 }
 .subtitle {
     font-weight: 500;
     display: block;
     font-size: 36px ;
+}
+.subtitle2 {
+    font-weight: 500;
 }
 .bold {
     font-weight: bold;
@@ -44,7 +48,7 @@ div #body h3 {
     font-size: 18px; 
     padding-right: 5px;
 }
-p {
+div p {
     line-height: 1.5;
 }
 #hero {
@@ -56,12 +60,14 @@ ol {
 }
 ul li {
     padding: 5px 10px;
+    line-height: 1.5;
 }
 .side-by-side {
    
     display: inline-block;
-    background-color: blanchedalmond;
-    width:auto;
+    background-color: rgb(247, 244, 241);
+    width: 100%;
+    padding-left: 20px;
     
 }
 .image img {
