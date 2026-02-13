@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.hero {
+    background-color: #900D2C;
+}
+.lighter {
+    padding-top: 10px;
+    background-color: #b41037;
+}
+.single-column {
+    width: 900px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.sidebyside {
+    display: inline-block; 
+    vertical-align: middle;
+    width: 1200px;
+    background-color: rgb(238, 238, 189);
+    border: solid #630a1f;
+    box-shadow: 
+        inset 5px 5px 5px #630a1f,
+        5px 5px 10px #630a1f ;
+    margin: 30px 50px;
+    text-align: center;
+}
+.column1 img {
+    width: 100%;
+    transform: rotate(10deg);
+    vertical-align: middle;
+    padding: 20px 30px;    
+}
+.column1 {
+    width: 300px;
+    display: inline-block;
+    padding: 20px 30px;
+}
+.column2 {
+    width: 400px;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+    color: black;
+    text-align: left;
+}
+.column2 p {
+    margin-bottom: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 50px 0px;
+    color: rgb(226, 219, 219);
+    font-family: "Alumni Sans Collegiate One", sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+h2.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.subhead {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: 900;
+    color: rgb(247, 247, 246);
+    background-color: #630a1f;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: #900D2C 2px 2px 2px;
+    display: block;
+    text-align: center;
+}
+.lighter .column1 img {
+    transform: rotate(-10deg);
+}
+.lighter .single-column .sidebyside {
+    background-color: #b41037;
+    border: 0px;
+    box-shadow: 0px 0px;
+}
+a {
+    background-color: rgb(238, 238, 189);
+    color: black;
+}
+p {
+    color: rgb(238, 238, 189);
+}
+h2 {
+    color: rgb(238, 238, 189);
+}
+.lighter h2.title {
+    color: white;
+    border-bottom: solid;
+}
+.darker {
+    background-color: #630a1f;
+}
+.darker .single-column .sidebyside {
+    background-color: #630a1f;
+
+}
