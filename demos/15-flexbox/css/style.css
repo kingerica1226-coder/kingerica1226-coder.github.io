@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.card-container {
+    display: flex;
+    gap: 36px;
+}
+.card {
+    border: 5px solid purple;
+    margin: 36px 0px;
+    padding: 36px;
+    flex: 1;
+    text-align: center;
+}
+.card#card4 {
+    flex: 2;
+}
+.card#card2 {
+    flex: 2;
+    order: 2;
+}
+.card#card1 {
+    order: 1;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+a {
+   padding: 10px;
+   margin-top: 20px;
+   display:block;
+   text-decoration: none;
+    color: purple;
+    background-color: black;
+    border: solid 5px purple;
+    border-radius: 20px;
+    width: 50px;
+}
