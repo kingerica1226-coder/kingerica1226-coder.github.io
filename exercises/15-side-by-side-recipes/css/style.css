@@ -15,16 +15,15 @@ body {
 }
 #recipe-intro {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
     margin-top: 36px;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 #recipe-intro .image-container img {
-    width: 80%;
+    width: 100%;
     object-fit: cover;
-    height: 300px;
 }
 #recipe-intro .image-container,
 #recipe-intro .text-container {
@@ -37,6 +36,8 @@ span {
 }
 h1 {
     padding-bottom: 20px;
+    font-size: 36px;
+    letter-spacing: 3px;
 }
 #recipe-intro .text-container h1,
 #recipe-intro .text-container h4 {
@@ -70,7 +71,8 @@ h1 {
     margin: 10px 5px;
 }
 h2 {
-    text-align: center;
+    text-align: center;+
+    font-size: 30px;
 }
 h4,
 h1,
