@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+#single-column {
+    width: 60%;
+    max-width: 900px;
+    min-width: 600px;
+    margin: 0px auto;
+}
+#recipe-intro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 36px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+#recipe-intro .image-container img {
+    width: 80%;
+    object-fit: cover;
+    height: 300px;
+}
+#recipe-intro .image-container,
+#recipe-intro .text-container {
+    flex: 1;
+    padding: 50px 0px;
+}
+span {
+    font-size: 14px;
+    font-weight: 300;
+}
+h1 {
+    padding-bottom: 20px;
+}
+#recipe-intro .text-container h1,
+#recipe-intro .text-container h4 {
+    margin: 0px;
+}
+#recipe-intro .text-container p {
+    font-size: 16px;
+    padding: 2px 0px;
+    line-height: 1.5;
+
+}
+#recipe-intro a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.time-info {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.time-info {
+    flex: 1;  
+}
+.time-info h5 {
+    margin: 10px 5px;
+}
+h2 {
+    text-align: center;
+}
+h4,
+h1,
+a,
+h2,
+h5 {
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+   
+}
+.cards .card {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#additional-recipes .cards .card .image-container img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+#additional-recipes .cards .card .image-container {
+    width: 225px;
+    flex: 1;  
+}
+#additional-recipes .cards .card h4 {
+    text-align: center;
+    display: block;
+    flex: 1;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+h4 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

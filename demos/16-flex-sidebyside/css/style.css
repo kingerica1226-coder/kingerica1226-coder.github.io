@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.side-by-side-container {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    height: 400px;
+    padding: 20px 0px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+.side-by-side-container .image-container img {
+    width: 100%;
+}
+.side-by-side-container .image-container,
+.side-by-side-container .text-container {
+    flex: 1;
+}
