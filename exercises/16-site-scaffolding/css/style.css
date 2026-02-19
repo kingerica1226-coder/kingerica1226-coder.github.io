@@ -33,7 +33,7 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
-#single-column #navbar #logo {
+#single-column #navbar #logo  {
     color: white;
     font-family: "Spicy Rice", cursive;
     font-size: 28px;
@@ -41,6 +41,9 @@ body {
     margin-right: auto;
     letter-spacing: 1px;
     transition: color 0.3s;
+}
+#single-column.home #navbar a#logo:hover {
+    color: white;
 }
 #single-column #navbar #cta {
     background-color: #f7b538;
@@ -74,6 +77,7 @@ body {
 #single-column #navbar a#logo:hover {
     color: #c32f27;
 }
+#single-column #navbar a#logo:hover
 #single-column #navbar a.active:hover {
     color: #f7b538;
 }
