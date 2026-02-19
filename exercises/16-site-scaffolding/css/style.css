@@ -77,7 +77,6 @@ body {
 #single-column #navbar a#logo:hover {
     color: #c32f27;
 }
-#single-column #navbar a#logo:hover
 #single-column #navbar a.active:hover {
     color: #f7b538;
 }
