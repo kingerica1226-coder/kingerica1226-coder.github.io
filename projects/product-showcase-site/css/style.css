@@ -26,14 +26,13 @@ body {
     background-color: #b41037;
 }
 .single-column {
-    width: 900px;
     max-width: 1200px;
     margin: 0px auto;
 }
 .sidebyside {
     display: inline-block; 
     vertical-align: middle;
-    width: 1200px;
+    width: 100%;
     background-color: rgb(238, 238, 189);
     border: solid #630a1f;
     box-shadow: 
