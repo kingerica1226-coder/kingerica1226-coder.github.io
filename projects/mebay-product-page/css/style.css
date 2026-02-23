@@ -21,7 +21,7 @@ body {
     display: flex;
     gap: 30px;
     justify-content: center;
-    align-items: top
+    align-items: top;
 }
 #thumbnail-column {
     width: 150px;
@@ -112,7 +112,7 @@ body {
     color: black;
     font-size: 12px;
 }
-h5{
+h5 {
     margin: 0px;
 }
 span.light-text {
