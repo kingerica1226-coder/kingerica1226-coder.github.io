@@ -6,3 +6,154 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#header {
+    background-color: rgb(214, 173, 230);
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 2px solid green;
+    margin-bottom: 30px;
+}
+#header h1 {
+    margin: 0px;
+}
+#layout {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: top
+}
+#thumbnail-column {
+    width: 150px;
+    padding: 24px;
+}
+#thumbnail-column #gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 12px;
+}
+#thumbnail-column img {
+    flex: 1;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(218, 214, 201);
+}
+#thumbnail-column #gallery img#thumbnail1 {
+    border: 3px solid black;
+}
+#feautred-image-column {
+    
+    align-items: center;
+    vertical-align: middle; 
+    padding: 40px;
+}
+#feautred-image-column img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 48px;
+    background-color: rgb(218, 214, 201);
+    border: 2px solid black;
+}
+#product-info-column {
+    width: 400px;
+    padding: 24px; 
+}
+#product-info-column #seller-info-card {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+}
+#seller-info-card #seller-info-card-body {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 15px;
+}
+#seller-info-card #seller-profile-image img {
+    width: 50px;
+    border-radius: 50%;
+    flex: 1;
+    justify-content: center;
+    vertical-align: middle;
+}
+#product-info-column #seller-info-card #seller-name-text {
+    font-weight: bold;
+    flex: 1;
+    justify-content: center;
+}
+#product-info-column h2 {
+    margin: 0px;
+    padding: 24px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-bottom: 24px;
+}
+#seller-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+}
+#seller-info #seller-rating {
+    flex: 1;
+}
+#seller-info #seller-pages {
+    flex: 1;
+}
+#seller-info #seller-message {
+    flex: 1;
+}
+#seller-info a {
+    text-decoration: underline;
+    color: black;
+    font-size: 12px;
+}
+h5{
+    margin: 0px;
+}
+span.light-text {
+    color: gray;
+}
+p {
+    font-weight: 700;
+    font-size: 16px;
+}
+span.text-header {
+    font-weight: normal;
+}
+#product-info-column h4 {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    padding: 20px 0px;
+      
+}
+ul {
+    list-style: none;
+    padding: 0px; 
+}
+li a {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    display: block;
+    padding: 12px;
+    border-radius: 30px;
+    margin: 10px 0px;
+    text-align: center;
+    width: 100%;
+}
+li a#buy-it-now {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+h5 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    width: 200px;
+}
