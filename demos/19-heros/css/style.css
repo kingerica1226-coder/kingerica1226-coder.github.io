@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#centered-hero {
+    background-image: url(../images/images/stars-on-velvet.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* can use background position to adjust where image sits on containers
+    such as top right... or even top 20px left 30px ...
+    center center most common*/
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+}
+.hero-content  h1 {
+    font-size: 72px;    
+}
+.hero-content h3 {
+    font-size: 24px;
+}
+#side-hero {
+    background-image: url(../images/images/lonely-ocean.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10%;
+}
+#contrast-hero {
+    background-image: url(../images/images/placid-waters.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#contrast-hero .hero-content {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.747),
+        black, 
+        rgba(0, 0, 0, 0.274)
+        );
+    padding: 72px;
+    text-align: center;
+    border-radius: 60px;
+    margin: 10%;
+}
