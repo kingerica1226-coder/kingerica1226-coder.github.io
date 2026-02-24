@@ -50,7 +50,7 @@ body {
     height: 100vh;
     background-position: center center;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 #hero-content {
@@ -60,6 +60,7 @@ body {
     text-transform: uppercase;
     padding: 40px;
     width: 100vh;
+    cursor: default;
 }
 h1 {
     font-size: 90px;
@@ -91,17 +92,26 @@ h2 {
 }
 #hero-content .button-one {
     background-color: #114c55;
+    transition: background-color 0.3, color 0.3;
     
+}
+#hero-content .button-one:hover {
+   background-color: #ede0d4;
+   color: #114c55;
 }
 #hero-content .button-two {
     border: #114c55 solid;
     color: #114c55;
     padding: 8px 20px;
+    transition: border 0.3, color 0.3;
+}
+#hero-content .button-two:hover {
+    border: #ede0d4 solid;
+    color: #ede0d4;
 }
 #hero-content #button-group {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 20px;
-   
 }
