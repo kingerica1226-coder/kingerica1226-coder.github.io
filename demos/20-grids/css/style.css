@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.basic-grid-gallery {
+    background-color: rgb(220, 188, 233);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    border: 10px solid;
+    gap: 24px;
+}
+.basic-grid-gallery img {
+    width: 100%;
+}
