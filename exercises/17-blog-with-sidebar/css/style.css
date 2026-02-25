@@ -6,13 +6,57 @@ body {
     margin: 0px;
     font-family: sans-serif;
     font-size: 16px;
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.445), rgba(255, 255, 255, 0.541)),
+    url(../images/background.jpg);
 }
+.background {
+    display: flex;
+    width: 80%;
+    margin: 48px auto;
+    min-width: 600px;
+    max-width: 1000px;
+}
+#sidebar {
+    width: 240px;
+    padding: 14px;  
+}
+.sticky-sidebar {
+    position: sticky;
+    top: 24px;
+}
+#sidebar h4 {
+    background-color: #41292c;
+    padding: 14px;
+    color: #ffd6ff;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+#sidebar ul {
+    background-color: #2f2d2e;
+    margin-top: 0px;
+    padding: 10px 20px;
+    border: 3x solid #cf669e;
+    list-style: none;
+}
+#sidebar li{
+    border-bottom: 2px solid #ffd6ff;
+    padding: 0px 0px;
+}
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+#sidebar a {
+    color: #fd3e81;
+    text-decoration: none;
+}
+
 .single-column {
-    width: 50%;
-    margin: 0px auto;
-    min-width: 800px;
-    max-width: 1080px;
-    background-color: rgb(253, 253, 253);
+    flex: 1;
+    width: 900px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #2f2d2e;
 }
 .title {
     margin: 0px;
@@ -20,18 +64,16 @@ body {
 img {
     width: 100%;
 }
-div {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 div #body .subheaders2 {
     font-weight: bolder;
     font-size: 25px;
     margin: 20px;
+    color: #fd3e81;
 }
 div #body h3 {
     font-size: 36px;
     display: block;
+    color: #fd3e81;
 }
 .subtitle {
     font-weight: 500;
@@ -63,15 +105,13 @@ ul li {
     line-height: 1.5;
 }
 .lighter {
-    background-color: rgb(129, 86, 20);
+    background-color:#cf669e;
 }
 .side-by-side {
-   
     display: flex;
     gap: 30px;
-    background-color: rgb(247, 244, 241);
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .image img {
