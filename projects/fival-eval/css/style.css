@@ -9,11 +9,11 @@ body {
 }
 #background {
     background: linear-gradient(
-         #2d3047,
-         #419D78,
-         #2d3047,
-         #419D78
-         );
+        #2d3047,
+        #419D78,
+        #2d3047,
+        #419D78
+    );
 }
 .single-column {
     display: flex;
@@ -24,10 +24,11 @@ body {
     max-width: 1080px;
     min-width: 600px;
     margin: 0px auto;
-    background-color: #e0a458
+    background-color: #e0a458;
 }
 #intro {
-    background-image: url(../images/football-ball-rugby-field_23-2151909689.avif);
+    background-image:
+        url(../images/football-ball-rugby-field_23-2151909689.avif);
     background-size: cover;
     background-position: center center;
     height: 50vh;
@@ -37,10 +38,10 @@ body {
 .cards-container {
     display: flex;
     gap: 10px;
-    max-width:1080px;
+    max-width: 1080px;
     border: black solid 3px;
     padding: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     background-color: #9e2b25;
 }
 .cards {
@@ -58,8 +59,8 @@ body {
     flex-direction: column;    
 }
 .cards-container .cards .image {
-   width: 200px;
-   height: 200px;
+    width: 200px;
+    height: 200px;
   
 }
 .cards-container .cards .image img {
@@ -75,8 +76,8 @@ body {
 }
 .cards-container .cards#vs {
     border: none;
-    box-shadow:none;
-    background-color:#9e2b25;
+    box-shadow: none;
+    background-color: #9e2b25;
     color: black;
     font-size: 60px;
 }
@@ -87,7 +88,9 @@ body {
     align-items: center;
     gap: 20px;
 }
-h4,h1,h2 {
+h4,
+h1,
+h2 {
     padding: 0px;
     margin: 0px;
 }
@@ -101,13 +104,13 @@ h4,h1,h2 {
 a {
     border: solid 2px #2d3047;
     text-decoration: none;
-    color:black;
+    color: black;
     background-color: #d2d6ef;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
 }
-h1,h2 {
-    font-family: "Bevan",serif;
+h1,
+h2 {
+    font-family: "Bevan", serif;
 }
- 
