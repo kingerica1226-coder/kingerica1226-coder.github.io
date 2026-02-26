@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #272628;
+}
+#centered-hero {
+    background: url(../images/canyon_1.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-position: top top;
+    justify-content: flex-start;
+    padding: 10%;
+}
+#hero-content {
+    color: white;
+}
+#hero-content h1 {
+    font-size: 70px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+#hero-content h3 {
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-family: "lora", serif;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    
+}
+#layout .border {
+    border: 10px solid #01afc3;
+    background-color: #272628;
+    padding: 0px;
+    margin: 10px;
+}
+#layout .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #01b0c391;
+    border: 10px solid #954f3b;
+    gap: 24px;
+    padding: 24px;
+} 
+
+#layout .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
