@@ -11,7 +11,7 @@ body {
 #nav-background {
     width: 100%;
     position: sticky;
-    top:0;
+    top: 0;
     background: linear-gradient(#343235, #272628);
 }
 #nav {
@@ -90,9 +90,6 @@ body {
     height: 100%;
     object-fit: cover;
 }
-
-
-
 /* laptop Breakpoint */
 @media screen and (max-width: 1000px) {
     #hero-content h1 {
@@ -105,8 +102,8 @@ body {
         flex-wrap: wrap;
     }
     #nav {
-       justify-content: center;
-       align-items: center;
+        justify-content: center;
+        align-items: center;
     }
     #nav a#logo {
         width: 100%;
@@ -141,11 +138,22 @@ body {
         background: linear-gradient(60deg, #01b0c3a8, #954f3b, #01b0c3c5);
         justify-content: center;
     }
-      #hero-content h1 {
+    #hero-content h1 {
         font-size: 30px;
         text-align: center;
     } 
     #hero-content h3 {
         font-size: 15px;
+    }
+    #layout .border {
+        border: none;
+    }
+    #layout .gallery {
+        background-color: #272628;
+        border: none;
+    }
+    #layout .gallery img {
+        border-top: #01afc3 5px solid;
+        border-bottom: #01afc3 5px solid;
     }
 }
