@@ -96,6 +96,11 @@ body {
     height: 100%;
     object-fit: cover;
 }
+#layout {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 #card-container {
     display: flex;
     align-items: top;
@@ -104,6 +109,7 @@ body {
     gap: 20px;
 }
 #card-container .card {
+    max-width: 300px;
     text-align: center;
     background-color: #252422;
     padding: 10px 20px;
@@ -138,8 +144,8 @@ body {
     margin: 10px auto;
     text-align: center;
 }
- /* laptop breakpoint */
- @media screen and (max-width: 870px) {
+/* laptop breakpoint */
+@media screen and (max-width: 870px) {
     #gallery {
         grid-template-columns: 1fr;
     }
@@ -147,6 +153,52 @@ body {
     #layout {
         flex-direction: column;
         justify-content: center; 
+        padding: 30px;
     }
+    #card-container .card {
+        max-width: 100%;
     }
- 
+}
+/* Tablet Breakpoint */
+@media screen and (max-width: 750px) {
+    #nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav a#logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: 30px;
+    }
+    #nav a {
+        padding: 16px 24px 24px;
+    }
+    #hero {
+        height: 50vh;
+        background-position: center center;
+    }
+    #hero-content .button {
+        width: 60%;
+    }
+    #hero-content h1 {
+        font-size: 42px;
+    } 
+    #hero-content h3 {
+        font-size: 18px;
+    }
+    #hero-content .button {
+        font-size: 15px;
+    }
+    #gallery-layout h2 {
+        font-size: 30px;
+    }
+}
+/* mobile breakpoint */
+@media screen and (max-width: 470px) {
+    #nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
